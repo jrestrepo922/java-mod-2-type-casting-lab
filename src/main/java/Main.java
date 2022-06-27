@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // your code here
+        Home baseHome = new SingleFamilyHomes();
+        System.out.println(baseHome.getClass().toString());
     }
 }
